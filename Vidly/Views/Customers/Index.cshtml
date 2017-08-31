@@ -56,8 +56,7 @@
         });
 
 
-        $("#customers").on("click",
-            ".js-delete" /*filter to have only one handler*/,
+        $("#customers").on("click",".js-delete" /*filter to have only one handler*/,
             function() {
                 var button = $(this);
                 bootbox.confirm("Are you sure you want to delete this function?",

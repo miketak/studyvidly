@@ -31,5 +31,7 @@ namespace Vidly.Models
         [Required]
         public int GenreId { get; set; }
 
+        public int NumberAvailable { get; set; }
+
     }
 }
